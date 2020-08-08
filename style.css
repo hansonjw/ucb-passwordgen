@@ -66,6 +66,10 @@ header {
   height: 2px;
 }
 
+.Complexity {
+  display: block;
+}
+
 .card-footer::after {
   content: " ";
   display: block;
