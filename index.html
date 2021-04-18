@@ -23,23 +23,40 @@
 
         <form class="Complexity">
           <h3>Password Complexity:</h3>
+          
+          <div class="option">
+            <input type="checkbox" id="Low">
+            <label for="Low">Include Lower Case</label>
+          </div>
 
-          <div><input type="radio" id="Low">Include Lower Case?</button></div>
-          <div><input type="radio" id="Up">Include Upper Case?</button></div>
-          <div><input type="radio" id="Num">Include Numbers?</button></div>
-          <div><input type="radio" id="Spec">Include Special Characters?</button></div>
-         
-        </form>
+          <div class="option">
+            <input type="checkbox" id="Up"></button>
+            <label for="Up">Include Upper Case</label>
+          </div>
+          
+          <div class="option">
+            <input type="checkbox" id="Num">
+            <label for="Num">Include Numbers</label>
+          </div>
 
-        <form id="PWLength">
-          Password Length (between 8 and 128 characters):
-          <input type="text" id="PassWordLength">
+          <div class="option">
+            <input type="checkbox" id="Spec">
+            <label for="Spec">Include Special Characters</label>
+          </div>
+
+          <div class="option">
+            Password Length (between 8 and 128 characters):
+            <input type="text" id="PassWordLength">
+          </div>
+
+          <div class="option">
+            <input class="btnrst" type="reset" value='Clear Options'>
+          </div>
         </form>
 
         <!-- ************* -->
         <!-- justin's code -->
         <!-- ************* -->
-
 
         <div class="card-body">
           <textarea
